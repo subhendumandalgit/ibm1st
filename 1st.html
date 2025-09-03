@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>APSSDC</title>
 </head>
 <body>
-    
+    <h2>APSSDC Full Stack Development Program Registration Form</h2>
+    <form action="post">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname">
+        <br><br>
+        <label for="phone number">Phone Number:</label><br>
+        <input type="number" maxlength="10", min="0"id="phonenumber">
+        <br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email">
+        <br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob">
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender">Male <br>
+        <input type="radio" id="gender">Female <br>
+        <input type="radio" id="gender">Other 
+        <br><br>
+        <label for="course">Course:</label><br>
+        <select id="course">
+            <option value="">--Select Course--</option>
+            <option value="BCA">BCA</option>
+            <option value="B-Tech">B-Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="M-Tech">M-Tech</option>
+        </select>
+        <br><br>
+        <label for="educational">Educational Qualification:</label><br>
+        <select id="educational">
+            <option value="">--Select--</option>
+        </select>
+        <br><br>
+        <label for="college">College Name:</label><br>
+        <input type="text" id="college">
+        <br><br>
+        <label for="upload">Upload Resume(PDF/DOC):</label><br>
+        <input type="file" accept=".pdf,.doc">
+    </form>    
 </body>
 </html>
